@@ -13,8 +13,8 @@ end
 end
 
 def take_a_number(katz_deli)
-  katz_deli << string
-    puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
+  katz_deli << s
+    puts "You are number #{katz_deli.length}"
 end
 
 =begin
