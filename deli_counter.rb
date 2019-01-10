@@ -42,10 +42,6 @@ end
 
 $number = 5
 
-def doubler(n)
-  n * 2
+def doubler
+  $n = $n * 2
 end
-
-number = doubler(number)
-
-number
