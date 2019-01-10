@@ -39,3 +39,11 @@ def now_serving(katz_deli)
   end
   puts "There is nobody waiting to be served!"
 end
+
+number = 5
+
+def doubler(number)
+  number = number * 2
+end
+
+
