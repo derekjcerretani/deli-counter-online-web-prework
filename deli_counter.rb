@@ -40,7 +40,7 @@ def now_serving(katz_deli)
   puts "There is nobody waiting to be served!"
 end
 
-number = 5
+$number = 5
 
 def doubler(n)
   n * 2
