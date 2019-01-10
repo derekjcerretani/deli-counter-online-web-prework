@@ -42,8 +42,10 @@ end
 
 number = 5
 
-def doubler(number)
-  number = number * 2
+def doubler(n)
+  n * 2
 end
 
+number = doubler(number)
 
+number
