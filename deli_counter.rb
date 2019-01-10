@@ -43,5 +43,5 @@ end
 $number = 5
 
 def doubler
-  $n = $n * 2
+  $number = $number * 2
 end
