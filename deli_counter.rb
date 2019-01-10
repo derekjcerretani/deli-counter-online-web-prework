@@ -15,6 +15,11 @@ end
 def take_a_number(katz_deli, string)
   katz_deli << string
     puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
+
+    katz_deli.index(string) + 1
+    katz_deli.size
+
+    
 end
 
 =begin
