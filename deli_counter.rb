@@ -14,9 +14,7 @@ end
 
 def take_a_number(katz_deli, string)
   katz_deli << string
-  new_cust = katz_deli.last
-  new_cust_num = katz_deli.index(string)
-    puts "Welcome, #{new_cust}. You are number #{new_cust_num + 1} in line."
+    puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
 end
 
 =begin
