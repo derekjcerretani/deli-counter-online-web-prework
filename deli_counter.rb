@@ -15,7 +15,6 @@ end
 $n = 1
 
 def take_a_number(katz_deli)
-  $n = 1
   katz_deli << $n
     puts "You are number #{$n}"
     $n += 1
