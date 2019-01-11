@@ -12,9 +12,13 @@ def line(customers)
 end
 end
 
+$n = 1
+
 def take_a_number(katz_deli)
-  katz_deli << s
-    puts "You are number #{katz_deli.length}"
+  $n = 1
+  katz_deli << $n
+    puts "You are number #{$n}"
+    $n += 1
 end
 
 =begin
